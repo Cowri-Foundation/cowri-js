@@ -1,1 +1,1 @@
-# cowriJS
+# cowri-js
