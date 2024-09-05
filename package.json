@@ -1,0 +1,39 @@
+{
+  "name": "kowri",
+  "version": "0.0.1",
+  "main": "cowri.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node cowri.js"
+  },
+  "keywords": [],
+  "author": "GC",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "mocha": "^10.2.0",
+    "pino-pretty": "^10.3.1"
+  },
+  "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^13.1.0",
+    "@chainsafe/libp2p-noise": "^15.1.0",
+    "@libp2p/identify": "^2.1.2",
+    "@libp2p/mplex": "^10.1.0",
+    "@libp2p/ping": "^1.1.0",
+    "@libp2p/pubsub-peer-discovery": "^10.0.2",
+    "@libp2p/tcp": "^9.1.0",
+    "elliptic": "^6.5.4",
+    "it-pipe": "^3.0.1",
+    "js-sha3": "^0.8.0",
+    "level": "^8.0.1",
+    "libp2p": "^1.7.0",
+    "multiaddr": "^10.0.1",
+    "pino": "^8.15.1",
+    "protobufjs": "^7.2.5",
+    "snappyjs": "^0.7.0",
+    "workerpool": "^9.1.1",
+    "ws": "^8.17.0"
+  }
+}

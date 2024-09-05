@@ -1,0 +1,15 @@
+{
+    "PRIVATE_KEY": "62d101759086c306848a0c1020922a78e8402e1330981afe9404d0ecc0a4be3d",
+    "ADDRESS": "63b25f7c7a",
+    "NETWORK_ID": "c5",
+    "NETWORK_VERSION": 1,
+    "MINER_STATUS": true,
+    "GOD_NODE": true,
+    "PORT": 3000,
+    "VDF_ITERATIONS": 1000,
+    "MAX_SELECTORS": 10,
+    "MY_ADDRESS": "ws://localhost:3000",
+    "MAX_PEERS": 40,
+    "POOL_TTL": 10,
+    "LOG_LEVEL": "debug"
+}
