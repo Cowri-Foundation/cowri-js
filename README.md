@@ -1,6 +1,6 @@
 # CowriJS  - Under Active Development !!!
 
-This is an attempt to do the unthinkable: design a fully functional blockchain protocol that is safe to be implemented in vanilla javascript, and light enough to run on thin clients like smart phones, browsers and iot devices. This first implementation however is being written to run on the nodeJs platform.
+This is an attempt to do the unthinkable: design a fully functional blockchain protocol that is safe to be implemented in vanilla javascript, and light enough to run on thin clients like smart phones, browsers and IOT devices. This first implementation however is being written to run on the nodeJs platform.
 
 We hope to achieve a permissionless, egalitarian and highly decentralized blockchain network, with a non-interactive leadership selection process.
 
