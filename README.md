@@ -36,9 +36,9 @@ This project started late July 2024, and there is still so much work to be done.
 Also find below our crypto wallet addresses for those who wish to support our efforts financially.
 
 > Bitcoin: bc1qw6lja7ee4540z5jy8lthwhur6eemth7h9p2jqp
-
+>
 > Ethereum: 0xD9667D8c6dED8935EE9Ed2F45eCBE8A62D41Ae99
-
+>
 > Solana: CRAirJfJFRZNqCtyqssCmcW4QKRxb6993WxxNDcurAjG
-
+>
 > Dogecoin: D6d2rZSe1AFzqauEv6oA8Xqvv8bMArvY3C
