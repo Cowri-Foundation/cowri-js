@@ -5,6 +5,7 @@ This is an attempt to do the unthinkable: design a fully functional blockchain p
 We hope to achieve a permissionless, egalitarian and highly decentralized blockchain network, with a non-interactive leadership selection process.
 
 
+
 ## Consensus Algorithm
 
 To achieve the above objectives, a new consensus algorithm had to be invented. We call it 'Extended Proof of Time' or 'XPoT'. It borrows several desirable features from several other consensus protocols, without their disadvantages. 
@@ -14,6 +15,7 @@ For example, it takes from the Proof of Work protocol used by bitcoin, without t
 It also borrows from the proof of stake network, but without the centralizing effects. In the PoS protocol, miners stake a large amount of tokens to be able to participate in the block production process and also earn a reward, and the nodes can withdraw their stake anytime. But in XPoT, the stake is a tiny non-refundable amount that gives the node access to a virtual miner. Also there is a concept of voting (attestations) but unlike PoS where blocks need two-third of all votes to be confirmed, votes in XPoT plays a different role; they add 'weight' to a block as there could be multiple miners in a slot (promotes liveliness and a measure against centralization), and voters and miners are incentivized to follow the most voted chain since their rewards are tied to the average weight (total weight divided by block height) of the chain they vote for or extend, but are penalized if they vote or extend a bad/malicious block.
 
 As mentioned earlier, XPoT makes use of sequential computations to select the miner for a block, this is done through a 'Verifiable Delay Function', which is used in all Proof of Time blockchains like Chia. VDFs are hard to compute, but easy to verify. For example, it can take 10s to run a VDF and compute a result, but take less than a second to verify. The current VDF bing used in our XPoT protocol is the slothVDF which employs the use of modular square roots, the explanation and reason for choosing this VDF is beyond the scope of this introduction, and will be explained properly in the upcoming Cowri Black Paper.
+
 
 
 ## Why?
