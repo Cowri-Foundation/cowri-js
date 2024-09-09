@@ -35,7 +35,7 @@ Finally, I leave you with the words of a wise man, and co-founder of Stack Excha
 
 ## Contribution
 
-This project started late July 2024, and there is still so much work to be done. We will be posting work tasks and contribution guidelines in the coming days. We encourage all Javascript developers who wants to contribute to the code to do so. 
+This project started late July 2024, and there is still so much work to be done. We will be posting work tasks and contribution guidelines in the coming days. We encourage all Javascript developers who wish to contribute to the code to do so. 
 
 Also find below our crypto wallet addresses for those who wish to support our efforts financially.
 
