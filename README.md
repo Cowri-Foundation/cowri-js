@@ -1,3 +1,7 @@
+<div align="center">
+<img width="225" alt="cowri" src="https://github.com/user-attachments/assets/6934e315-7c5b-4831-8571-49c7327ab512">
+</div>
+
 # CowriJS  - Under Active Development !!!
 
 This is an attempt to do the unthinkable: design a fully functional blockchain protocol that is safe to be implemented in vanilla javascript, and light enough to run on thin clients like smart phones, browsers and IOT devices. This first implementation however is being written to run on the nodeJs platform.
