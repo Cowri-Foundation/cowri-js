@@ -16,8 +16,8 @@ import {
 } from "./node.js";
 
 
-export async function createTrie(accounts) {
-    const { user, contract, miner } = accounts;
+export async function createTrie(state) {
+    const { user, contract, miner } = state;
     const trie = { db: new Map(), root: '' }
     const all = [];
     user.forEach((acc, key) => all.push([key, userHash(acc)]));

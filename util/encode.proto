@@ -2,19 +2,37 @@ package cowri;
 syntax = "proto3";
 
 
-message VoteProof {
-    bytes minerKey = 1;
-    bytes minerNumber = 2;
-    bytes voteXSig = 3;
+message Block {
+    bytes index = 1;
+    bytes timestamp = 2;
+    bytes parentHash = 3;
+    bytes rewardAddress = 4;
+    bytes minerKey = 5;
+    bytes minerNumber = 6;
+    bytes vXSignature = 7;
+    bytes xSignature = 8;
+    bytes xTime = 9;
+    bytes xCount = 10;
+    bytes memo = 11;
+    bytes weight = 12;
+    bytes difficulty = 13;
+    bytes stateRoot = 14;
+    bytes bodyRoot = 15;
+    repeated bytes votes = 16;
+    repeated bytes reports = 17;
+    repeated bytes transactions = 18;
+    bytes signature = 19;
 }
 
 
 message Vote {
     bytes index = 1; 
-    bytes blockHash = 2;
+    bytes parentHash = 2;
     bytes rewardAddress = 3;
-    VoteProof proof = 4;
-    bytes signature = 5;
+    bytes minerKey = 4;
+    bytes minerNumber = 5;
+    bytes vXSignature = 6;
+    bytes signature = 7;
 }
 
 
@@ -32,14 +50,14 @@ message User {
 
 
 message Contract {
-   bytes id = 2;
-   bytes balance = 3;
-   repeated bytes values = 4;
+   bytes id = 1;
+   bytes balance = 2;
+   repeated bytes values = 3;
 }
 
 
 message Data {
-   repeated Contract contract = 4;
+   repeated Contract contract = 1;
 }
 
 
